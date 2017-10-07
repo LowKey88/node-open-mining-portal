@@ -1,14 +1,6 @@
 ### I just try to reborn stratum to work with all need algos.
 ### Need contributors!
 
-#### Node Open Mining Portal consists from 3 main modules:
-* Main module - https://github.com/foxer666/node-open-mining-portal
-* Stratum Pool - https://github.com/foxer666/node-stratum-pool
-* Node Multihashing libraries https://github.com/foxer666/node-multi-hashing
-
-Stratum Pool can be replaced with node-merged-pool (it's made in UNOMP)
-Adding new algos threw Node Multihashing libraries.
-
 #### Hashing algorithms supported:
 * ✓ __SHA256__ (tested with VCOIN)
 * ✓ __Scrypt__ (tested with AntiLiteCoin, 1CREDIT, ArgusCoin, WAYAWOLFCOIN and many others)
@@ -36,6 +28,11 @@ Adding new algos threw Node Multihashing libraries.
 * Node 8.x.x
 * coin daemon
 
+### License
+-------
+Released under the GNU General Public License v2
+http://www.gnu.org/licenses/gpl-2.0.html
+
 ### Credits
 -------
 * [Jerry Brady / mintyfresh68](https://github.com/bluecircle) - got coin-switching fully working and developed proxy-per-algo feature
@@ -49,9 +46,3 @@ Adding new algos threw Node Multihashing libraries.
 * [icecube45](//github.com/icecube45) - helping out with the repo wiki
 * [Fcases](//github.com/Fcases) - ordered me a pizza <3
 * Those that contributed to [node-stratum-pool](//github.com/zone117x/node-stratum-pool#credits)
-
-
-### License
--------
-Released under the GNU General Public License v2
-http://www.gnu.org/licenses/gpl-2.0.html
