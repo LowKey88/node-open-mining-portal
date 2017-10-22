@@ -10,6 +10,7 @@ Adding new algos threw Node Multihashing libraries.
 
 -------
 ##### Hashing algorithms supported:
+* ? __Argon2__ (need tests)
 * ? __Blake__ (need tests)
 * ? __Blake2S__ (need tests)
 * ? __Cryptonight__ (need tests)
