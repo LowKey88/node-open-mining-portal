@@ -17,11 +17,11 @@
         "url": "https://github.com/foxer666/node-open-mining-portal/issues"
     },
     "license": "GPL-2.0",
-    "author": "foxer666",
+    "author": "Matthew Little",
     "contributors": [
-        "Matthew Little",
         "vekexasia",
-        "TheSeven"
+        "TheSeven",
+        "Kris Klosterman"
     ],
     "main": "init.js",
     "bin": {
