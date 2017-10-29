@@ -9,6 +9,20 @@ Stratum Pool can be replaced with node-merged-pool (it's made in UNOMP)
 Adding new algos threw Node Multihashing libraries.
 
 -------
+##### Install
+```
+git clone https://github.com/foxer666/node-open-mining-portal.git pool
+cd pool
+npm update
+node init.js
+```
+-------
+#### Requirements
+* Node 8.x.x
+* Coin daemon
+* Redis Server
+
+-------
 ##### Hashing algorithms supported:
 * ? __Argon2__ (need tests)
 * ? __Blake__ (need tests)
@@ -50,19 +64,13 @@ Adding new algos threw Node Multihashing libraries.
 * ? __zr5__ (need tests)
 * ? __ziftr__ (need tests)
 
-#### Requirements
-------------
-* Node 8.x.x
-* coin daemon
-* Redis Server
-
-#### License
 -------
+#### License
 Released under the GNU General Public License v2
 http://www.gnu.org/licenses/gpl-2.0.html
 
-#### Credits
 -------
+#### Credits
 * [Kris Klosterman / krisklosterman](https://github.com/krisklosterman) - Updated code for work wiht Node.JS >=8
 * [Jerry Brady / mintyfresh68](https://github.com/bluecircle) - got coin-switching fully working and developed proxy-per-algo feature
 * [Tony Dobbs](http://anthonydobbs.com) - designs for front-end and created the NOMP logo
